@@ -1,0 +1,61 @@
+<company>
+    <name>XYZ Corporation</name>
+    <location>New York</location>
+    <employees>
+        <employee>
+            <id>1</id>
+            <name>John Doe</name>
+            <position>Software Engineer</position>
+            <skills>
+                <skill>Python</skill>
+                <skill>JavaScript</skill>
+                <skill>SQL</skill>
+            </skills>
+            <manager>
+                <id>101</id>
+                <name>Jane Smith</name>
+                <position>Engineering Manager</position>
+            </manager>
+        </employee>
+        <employee>
+            <id>2</id>
+            <name>Alice Johnson</name>
+            <position>Data Scientist</position>
+            <skills>
+                <skill>R</skill>
+                <skill>Python</skill>
+                <skill>Machine Learning</skill>
+            </skills>
+            <manager>
+                <id>101</id>
+                <name>Jane Smith</name>
+                <position>Engineering Manager</position>
+            </manager>
+        </employee>
+    </employees>
+    <departments>
+        <department>
+            <name>Engineering</name>
+            <head>
+                <id>101</id>
+                <name>Jane Smith</name>
+                <position>Engineering Manager</position>
+            </head>
+            <members>
+                <member>1</member>
+                <member>2</member>
+            </members>
+        </department>
+        <department>
+            <name>HR</name>
+            <head>
+                <id>201</id>
+                <name>Michael Brown</name>
+                <position>HR Director</position>
+            </head>
+            <members>
+                <!-- No members in HR department in this example -->
+            </members>
+        </department>
+    </departments>
+</company>

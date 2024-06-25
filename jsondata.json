@@ -1,0 +1,48 @@
+{
+  "company": "XYZ Corporation",
+  "location": "New York",
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "Software Engineer",
+      "skills": ["Python", "JavaScript", "SQL"],
+      "manager": {
+        "id": 101,
+        "name": "Jane Smith",
+        "position": "Engineering Manager"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Alice Johnson",
+      "position": "Data Scientist",
+      "skills": ["R", "Python", "Machine Learning"],
+      "manager": {
+        "id": 101,
+        "name": "Jane Smith",
+        "position": "Engineering Manager"
+      }
+    }
+  ],
+  "departments": [
+    {
+      "name": "Engineering",
+      "head": {
+        "id": 101,
+        "name": "Jane Smith",
+        "position": "Engineering Manager"
+      },
+      "members": [1, 2]
+    },
+    {
+      "name": "HR",
+      "head": {
+        "id": 201,
+        "name": "Michael Brown",
+        "position": "HR Director"
+      },
+      "members": []
+    }
+  ]
+}
